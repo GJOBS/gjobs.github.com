@@ -551,10 +551,10 @@ html {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
   background-repeat: repeat;
   background-position: 0 0;
-  background-color: #e2e2de;
+  background-color: #fff;
 }
 .body .unit-body {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 /* LINK */
 a:link {
@@ -591,7 +591,8 @@ pre {
 --------------------------------------------------------------------------------- */
 .the-header .logo {
   font-family: UbuntuMono-B, consolas, monaco, monospace;
-  margin: 0;
+  margin-top: -40px;
+  
 }
 .the-header .logo a:visited {
   color: #2d2d2d;
@@ -656,13 +657,13 @@ pre {
   margin-top: 0;
 }
 .unit-article a:link {
-  border-bottom: 1px dashed #c26164;
+  border-bottom: 1px dashed #c90000;
 }
 .unit-article a:visited {
-  border-bottom: 1px dashed #ad4346;
+  border-bottom: 1px dashed #940000;
 }
 .unit-article a:hover {
-  border-bottom: 1px dashed #d08688;
+  border-bottom: 1px dashed #000;
 }
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
@@ -723,7 +724,7 @@ pre {
 .unit-article li code {
   padding: 2px 5px;
   white-space: nowrap;
-  background-color: #fff04a;
+  background-color: #c90000;
 }
 .unit-article img {
   display: block;
@@ -793,7 +794,7 @@ pre {
 }
 /* post & page */
 .layout-page .tag_box {
-  background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
+  background: url('assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
   padding: 0.8125em;
   list-style: none;
   -webkit-border-radius: 3px;
@@ -872,15 +873,15 @@ pre {
 /* FOOTER
 ----------------------------------------------- */
 .the-footer a:link {
-  color: #c26164;
+  color: #c90000;
   border: 0;
 }
 .the-footer a:visited {
-  color: #ad4346;
+  color: #940000;
   border: 0;
 }
 .the-footer a:hover {
-  color: #d08688;
+  color: #000;
   border: 0;
 }
 .the-footer ul {
@@ -897,6 +898,7 @@ pre {
   margin-bottom: 0;
 }
 .the-header .unit-head {
+background-color:#fff
   padding: 26px;
 }
 .the-header .unit-head .nav-global .logo {
@@ -921,15 +923,15 @@ pre {
   padding: 26px;
 }
 .the-footer a:link {
-  color: #c26164;
+  color: #c90000;
   border: 0;
 }
 .the-footer a:visited {
-  color: #ad4346;
+  color: #940000;
   border: 0;
 }
 .the-footer a:hover {
-  color: #d08688;
+  color: #000;
   border: 0;
 }
 .the-footer h4 {
@@ -953,20 +955,29 @@ pre {
   .the-header .unit-head {
     padding: 0;
   }
-  .the-header .unit-head .nav-global li {
-    float: left;
+  .the-header .unit-head .nav-global2 li {
+    float: left; margin-top:0px; margin-left:100px;
+  }.the-header .unit-head .nav-global li {
+    float: right;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-width: 0 1px 0 0;
   }
-  .the-header .unit-head .nav-global li a,
+  .the-header .unit-head .nav-global li a
+  
+  {
+  color: #474747;
+  display: block;
+    padding: 26px;
+    height: 26px;
+  }
   .the-header .unit-head .nav-global li div {
     display: block;
     padding: 26px;
     height: 26px;
   }
   .the-header .unit-head .nav-global li a:hover {
-    background-color: #fff04a;
-    color: #474747;
+    background-color: #000;
+    color: #fff;
   }
   .the-header .unit-head .nav-global li:nth-child(2) {
     border-width: 0 1px;
