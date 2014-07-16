@@ -15,11 +15,8 @@
     <meta content='en_US' property='og:locale'/>
 <meta property='og:title' content='{{ page.title }}'/>
 {% if page.description %}<meta  property='og:description' content='{{ page.description }}'>{% endif %}
-<meta property="og:url" content="http://www.gjobs.in/" />
+<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-	
-	
-	
 	
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
