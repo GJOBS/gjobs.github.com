@@ -1522,3 +1522,17 @@ float:right;
 margin-top:8px; 
 margin-right:25px;
 }
+.date {
+    color: #000;
+    font-style: italic;
+}
+.headline {
+    font-size: 18px;
+}
+.feedTitle
+{
+color:#c90000;
+}
+#creditfooter {
+    display: none;
+}
