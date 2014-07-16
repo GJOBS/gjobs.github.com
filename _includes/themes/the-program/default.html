@@ -9,6 +9,18 @@
 	<title>{{ page.title }}</title>
 	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
+	<meta property='og:type' content='website'/>
+    <meta content='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc3/1465259_641324649252655_1260819428_n.png' property='og:image'/>
+    <meta content='100001402555904' property='fb:admins'/>
+    <meta content='en_US' property='og:locale'/>
+<meta property='og:title' content='{{ page.title }}'/>
+{% if page.description %}<meta  property='og:description' content='{{ page.description }}'>{% endif %}
+<meta property="og:url" content="http://www.gjobs.in/" />
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+	
+	
+	
+	
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
@@ -16,9 +28,9 @@
 <body>
 <div class="top-bar">
 <div class="top-bar-icons">
-              <a href="https://www.facebook.com/GJobsIN"><img src="f.png" /></a>
-			  <a href="https://twitter.com/GJobsIN"><img src="t.png" /></a>
-			  <a href="https://plus.google.com/+GJobsIN"><img src="g.png" /></a>
+              <a href="https://www.facebook.com/GJobsIN"><img src="/add-con/f.png" /></a>
+			  <a href="https://twitter.com/GJobsIN"><img src="/add-con/t.png" /></a>
+			  <a href="https://plus.google.com/+GJobsIN"><img src="/add-con/g.png" /></a>
 			  </div>
             
             </div>
