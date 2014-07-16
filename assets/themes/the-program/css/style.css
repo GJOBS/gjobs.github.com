@@ -548,7 +548,7 @@ html {
   color: #2d2d2d;
 }
 #page {
-  background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
+   
   background-repeat: repeat;
   background-position: 0 0;
   background-color: #fff;
@@ -794,7 +794,7 @@ pre {
 }
 /* post & page */
 .layout-page .tag_box {
-  background: url('assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
+  
   padding: 0.8125em;
   list-style: none;
   -webkit-border-radius: 3px;
@@ -976,7 +976,7 @@ background-color:#fff
     height: 26px;
   }
   .the-header .unit-head .nav-global li a:hover {
-    background-color: #000;
+    background-color: #444;
     color: #fff;
   }
   .the-header .unit-head .nav-global li:nth-child(2) {
@@ -1492,4 +1492,33 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+
+.scroller{
+background-color:#f6f6f6;
+border-top: 1px solid #EDEDED;
+border-bottom: 1px solid #EDEDED;
+min-height: 64px; 
+font-size: 16px;
+line-height: 20px;
+margin-top: -10px; 
+margin-bottom:10px;
+}
+.top-bar{
+background-color:#444; 
+width:100%; 
+min-height:40px;
+
+}
+.bottom-bar{
+background-color:#444; 
+width:100%; 
+min-height:25px;
+
+}
+
+.top-bar-icons{
+float:right; 
+margin-top:8px; 
+margin-right:25px;
 }
