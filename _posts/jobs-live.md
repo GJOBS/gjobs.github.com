@@ -2,6 +2,7 @@
 layout: default
 title: Job Alerts From JobsLive.in | GJOBS.IN
 description: Checkout the Latest jobs posted on JobsLive.in | GJOBS.IN | Updates from all your favorite job portals at a single place
+published: true
 ---
 <script>
              
