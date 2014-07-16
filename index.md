@@ -3,7 +3,7 @@ layout: page
 title: Government Jobs | Sarkari Naukri | Job Alerts | Employment News
 description: Get employment news & updates from various websites at a single place. Forget about visiting multiple websites to get news & updates. GJOBS has arranged them for you in a single website.
 ---
-<div id="blog-block" class="block">
+
               		 <script>document.write(x1.concat(s1)+sarkarinaukriblog+s2+xxml.concat(x2)); </script>
               		 <br /><center><black>Latest from SarkariNaukriBlog.com </black><a href="/sarkari-naukri-blog/"> See More</a></center>
               		 <hr /><hr />
@@ -14,4 +14,4 @@ description: Get employment news & updates from various websites at a single pla
               		 <br /><center><black>Latest From GetSarkariNaukri.co.in</black> <a href="/get-sarkari-naukri/"> See More</a></center>
              
              <noscript>This website requires JavaScript. Please enable JavaScript and try again !!</noscript>
-             </div>
+             
