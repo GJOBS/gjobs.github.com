@@ -15,12 +15,12 @@
     <meta content='en_US' property='og:locale'/>
 <meta property='og:title' content='{{ page.title }}'/>
 {% if page.description %}<meta  property='og:description' content='{{ page.description }}'>{% endif %}
-<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
-	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-	
+<meta property="og:url" content="http://www.gjobs.in{{ page.url | replace:'index.html',''}}" />
+	<link rel="canonical" href="http://www.gjobs.in{{ page.url | replace:'index.html',''}}">
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	<script type="text/javascript" src="/add-con/fetch.js" ></script>
 </head>
 <body>
 <div class="top-bar">
@@ -38,7 +38,7 @@
 			<div class="unit-inner unit-head-inner">
 				<nav class="nav-global2">
 					<ul>
-						<li class="logo"><a href="/"><img src="http://i0.wp.com/gjobs.in/s3/logo3.png"/></a></li>
+						<li class="logo"><a href="/"><img src="/add-con/logo3.png"/></a></li>
 					</ul>
 				</nav><nav class="nav-global">
 					<ul>
@@ -58,7 +58,7 @@
 		</div><!-- unit-head -->
 	</header>
 	<div class="scroller">
-	<marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><p>Now get all news & updates from various job portals/websites in a single website. We've collected and arranaged latest updates from all the popular job portals. So, now you don't need to wander around the web seeking for latest updates.  </p></marquee>
+	<marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><p>Now get all news & updates from various job portals/websites in a single website. We've collected and arranged latest updates from all the popular job portals. So, now you don't need to wander around the web seeking for latest updates.  </p></marquee>
 	</div>
 	<div class="body" role="main">
 		<div class="unit-body">
@@ -88,9 +88,14 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+<br />
+{% include JB/setup %}
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
 				</div><!-- misc -->
 				<p class="licence">
-					Developed by: <a href="http://www.d89.in"><img src="//gjobs.github.io/add-con/d89.png" title="Design Studio 89" alt="Design Studio 89"></a> .
+					Developed by: <a target="_blank"" href="http://www.d89.in"><img src="/add-con/d89.png" title="Design Studio 89" alt="Design Studio 89"></a> 
 				</p>
 			</div><!-- unit-foot-inner -->
 		</div><!-- unit-foot -->

@@ -1,46 +1,17 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Government Jobs | Sarkari Naukri | Job Alerts | Employment News
+description: Get employment news & updates from various websites at a single place. Forget about visiting multiple websites to get news & updates. GJOBS has arranged them for you in a single website.
 ---
-{% include JB/setup %}
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+<div id="blog-block" class="block">
+              		 <script>document.write(x1.concat(s1)+sarkarinaukriblog+s2+xxml.concat(x2)); </script>
+              		 <br /><center><black>Latest from SarkariNaukriBlog.com </black><a href="/sarkari-naukri-blog/"> See More</a></center>
+              		 <hr /><hr />
+              		 <script>document.write(x1.concat(s1)+sarkari2naukrialert+s2+xxml.concat(x2));</script>
+              		 <br /><center><black>Latest From Sarkari-NaukriAlert.com </black><a href="/sarkari-naukrialert/"> See More</a></center>
+<hr /><hr />
+              		 <script>document.write(x1.concat(s1)+getsarkarinaukri+s2+xxml.concat(x2));</script>
+              		 <br /><center><black>Latest From GetSarkariNaukri.co.in</black> <a href="/get-sarkari-naukri/"> See More</a></center>
+             
+             <noscript>This website requires JavaScript. Please enable JavaScript and try again !!</noscript>
+             </div>
