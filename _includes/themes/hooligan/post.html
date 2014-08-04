@@ -1,0 +1,46 @@
+<div class="page-header">
+<marquee style="color:#000;" marquee-speed="100" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Now get all news & updates from various job portals/websites in a single website. We've collected and arranaged latest updates from all the popular job portals. So, now you don't need to wander around the web seeking for latest updates.  </marquee>
+          
+  <!--<h1>
+    {{ page.title }} 
+    {% if page.tagline %}
+      <small>{{ page.tagline }}</small>
+    {% endif %}
+  </h1>-->
+</div>
+
+<div class="row">
+<div style="width:100%;"><center><h2 style="color:#333;">{{page.tagline}}</h2></center></div><hr/>
+  <div class="span8">
+    {{ content }}
+    <hr>
+  </div>
+  
+  <div class="span4" >
+    <div class="span3" >
+  <center>
+<section>
+<h2>Advertisement</h2>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 250 x 250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-9381870660490809"
+     data-ad-slot="8537144248"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+<center><h2>Subscribe</h2></center>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=GjobsIN', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><br /><p>Enter your email id</p><br /><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="GjobsIN" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></p></form>
+<center><h2>Related Networks</h2></center>
+
+<ul>
+  {% for post in site.posts %}
+  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.tagline }}</a></li>
+  {% endfor %}
+</ul>
+
+</section>	
+  </div>
+</div>
+</div>
