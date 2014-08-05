@@ -1,0 +1,12 @@
+---
+title: Job Portals
+layout: page
+group: navigation
+---
+<h2>
+<ul>
+  {% for post in site.posts %}
+  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.tagline }}</a></li><br />
+  {% endfor %}
+</ul>
+</h2>
