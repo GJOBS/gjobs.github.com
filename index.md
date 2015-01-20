@@ -5,7 +5,9 @@ tagline: Government Jobs India
 description: Get employment news & updates from various websites at a single place. Forget about visiting multiple websites to get news & updates. GJOBS has arranged them for you in a single website.
 ---
 <div class="span8" >
-              		 <script>document.write(x1.concat(s1)+sarkarinaukriblog+s2+xxml.concat(x2)); </script>
+              		 <script>document.write(x1.concat(s1)+jagranjosh+s2+xxml.concat(x2)); </script>
+              		 <br /><center><black>Latest from JagranJosh.com </black><a href="/jagran-josh/"> See More</a></center>
+              		 <hr /><script>document.write(x1.concat(s1)+sarkarinaukriblog+s2+xxml.concat(x2)); </script>
               		 <br /><center><black>Latest from SarkariNaukriBlog.com </black><a href="/sarkari-naukri-blog/"> See More</a></center>
               		 <hr />
               		 <script>document.write(x1.concat(s1)+sarkari2naukrialert+s2+xxml.concat(x2));</script>
