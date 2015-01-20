@@ -23,4 +23,3 @@ var sarkarinaukriblogin="gjobs-12";
 var naukrigo="gjobs-13";
 var sarkarinaukridirectory="gjobs-14";
 var jobsbus="gjobs-15";
-var jagran-josh="gjobs-jjosh";
